@@ -25,7 +25,10 @@ class HomeScreen extends StatelessWidget{
               print("Button Has been clicked");}
             , child: const Text('Button')),
       ),
-
+    body: const Center(
+      child: Text("Hello App",
+          style:TextStyle(fontSize:80, color:Colors.deepPurple )),
+    )
     );
   }
 }
